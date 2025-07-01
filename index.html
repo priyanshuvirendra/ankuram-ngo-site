@@ -1,0 +1,237 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankuram Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-section">
+            <img src="logo.jpg" class="logo" alt="Logo">
+            <a href="index.html" class="brand">Ankuram Foundation</a>
+
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="event_gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <button class="donate-btn">Donate Now</button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="overlay">
+            <h1>India in a Heart,<br>Youth on your Minds.</h1>
+
+            <a href="about.html" class="read-btn">READ ABOUT US</a>
+        </div>
+    </section>
+
+    <!-- States Section -->
+    <section class="states">
+
+        <img src="jharkhandlogo.png" alt="Jharkhand">
+        <img src="UPlogo.jpeg" alt="Uttar Pradesh">
+        <img src="biharlogo.jpeg" alt="Bihar">
+        <img src="rajasthanlogo.jpg" alt="Rajasthan">
+        <img src="maharastralogo.png" alt="Mumbai">
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <div class="tabs">
+                <button class="tab-button active" data-target="intro">Introduction</button>
+                <button class="tab-button" data-target="vision">Our Vision</button>
+                <button class="tab-button" data-target="purpose">Purpose</button>
+                <button class="tab-button" data-target="impact">Impact Story</button>
+            </div>
+
+            <div class="tab-content" id="intro">
+                <p><b>Ankuram Foundation</b> —<i>Journey to Excellence</i> — is a dedicated non-profit led by <b>Ms.
+                        Anita Singh</b>, working to protect and empower children and girls through education,
+                    healthcare, gender equality, and the fight against child labour and child marriage.</p>
+            </div>
+            <div class="tab-content" id="vision" style="display:none;">
+                <p>We envision a world where every child and girl is safe, educated, healthy, and empowered to grow with
+                    dignity — free from exploitation, discrimination, and harmful practices that limit their future.</p>
+            </div>
+            <div class="tab-content" id="purpose" style="display:none;">
+                <p>Our purpose is to advance child rights and gender equality by ensuring education, better healthcare,
+                    protection from abuse, and community action to prevent child labour and child marriage.</p>
+            </div>
+            <div class="tab-content" id="impact" style="display:none;">
+                <p>Through local programs and partnerships, we help children stay safe, support girls to stay in school,
+                    raise awareness in communities, and work tirelessly to end child labour and child marriage.</p>
+            </div>
+        </section>
+
+        <a href="about.html" class="see-all">Read more</a>
+
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div><span>5000</span>
+            <p>Members</p>
+        </div>
+        <div><span>50+</span>
+            <p>City</p>
+        </div>
+        <div><span>500+</span>
+            <p>Children helped</p>
+        </div>
+        <div><span>800+</span>
+            <p>Volunteers</p>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <h2>Our Core Team</h2>
+        <div class="team-row">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member" class="team-img">
+                <h3>Name Placeholder</h3>
+                <p>Position Placeholder</p>
+            </div>
+
+        </div>
+        <!-- <button class="view-all">View all team</button> -->
+    </section>
+
+    <!-- Event Section -->
+    <section class="events" id="events">
+        <h2>Upcoming Event</h2>
+        <div class="event-main">
+            <img src="bg.jpg" alt="Event">
+            <p><strong>Rajendra Prasad Jayanti</strong><br>📍 Lucknow • 8:30 AM - 12:30 PM • Sunday, 03 Dec 2023</p>
+        </div>
+        <div class="event-list">
+            <p>03 Dec 2023 • Rajendra Prasad Jayanti • 📍 Lucknow • 8:30 AM - 12:30 PM</p>
+            <p>03 Dec 2023 • Rajendra Prasad Jayanti • 📍 Lucknow • 8:30 AM - 12:30 PM</p>
+            <p>03 Dec 2023 • Rajendra Prasad Jayanti • 📍 Lucknow • 8:30 AM - 12:30 PM</p>
+        </div>
+        <a href="event.html" class="see-all">See all events</a>
+
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h2>Event Gallery</h2>
+        <div class="gallery-grid">
+            <img src="bg.jpg" alt="Gallery">
+            <img src="gal2.jpg" alt="Gallery">
+            <img src="gal3.jpg" alt="Gallery">
+            <img src="gal4.jpg" alt="Gallery">
+            <img src="gal5.jpg" alt="Gallery">
+            <img src="gal6.jpg" alt="Gallery">
+        </div>
+        <a href="event_gallery.html" class="see-all">See all event gallery </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div>
+                <img src="logo.jpg" alt="Logo">
+                <p><b>Ankuram Foundation</b> —<i>Journey to Excellence</i> — is a dedicated non-profit led by <b>Ms.
+                        Anita Singh</b>, working to protect and empower children and girls through education,
+                    healthcare, gender equality, and the fight against child labour and child marriage.</p>
+            </div>
+            <div class="footer-nav">
+
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html" class="nav-footer">Home</a></li>
+                    <li><a href="event.html" class="nav-footer">Events</a></li>
+                    <li><a href="index.html#team" class="nav-footer">Team</a></li>
+                    <li><a href="index.html#contact" class="nav-footer">Contact</a></li>
+                    <li><a href="event_gallery.html" class="nav-footer">Gallery</a></li>
+                    <li><a href="about.html" class="nav-footer">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-box">
+                <h4>Contact</h4>
+                <p>📍 11/21 Indira Nagar, Lucknow</p>
+                <p>📞 +91-7905961808</p>
+                <p>✉️ ankuramfoundation35@gmail.com</p>
+                <p><b>Reg. No. IN_UP20681385988683U</b></p>
+
+
+                <p>
+                    <i class="fab fa-twitter" style="color: #1DA1F2;"></i>
+                    <a href="https://x.com/Ankuram123" target="_blank" class="social-link">
+                        @Ankuram123
+                    </a>
+                </p>
+
+
+
+            </div>
+        </div>
+        <p class="copyright">Copyright © priyanshu Kolkata2025</p>
+    </footer>
+</body>
+
+</html>
